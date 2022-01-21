@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function featuresScroll() {
+              document.body.scrollTop = 870;
+              document.documentElement.scrollTop = 870;
+            }
+        </script>
+        <title> Dot - A Discord bot </title>
+        <link rel="shortcut icon" type="image/jpg" href="./Untitled-1.png"/>
+        <body style="font-family: sans-serif;"></body>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="javascript" type="text/javascript" href="style.js">
+        <body>
+            <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            <center><strong><h1 class="bigtext">Make a great Discord<br>&nbsp;&nbsp;&nbsp;&nbsp;server with Dot</h1></strong></center>
+                <hr class="custom"/>
+                <center><strong><p class="subtext">Dot has lots of commands to keep your server happy.</p></strong></center>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <center><div class="buttons">
+                    <strong><a onclick="window.location.href='https://discord.com/api/oauth2/authorize?client_id=822632438157148211&permissions=259845521399&scope=bot%20applications.commands'" class="button" >Add to Discord</a></strong>
+                    <strong><a onclick="featuresScroll()" class="buttonf" title="See Dot's features." >Features</a></strong>
+                </div></center>
+            <div id="wrapper" class="fade-in">
+                <p>&nbsp;</p>
+                <center><strong><h1 class="bigtext">Features</h1></strong></center>
+                <hr class="custom"/>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <img style="float: right;"src="BanScreenshot.png" class="image" alt="Banning Users">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <strong><h1 class="normaltext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moderation</h1></strong>
+                <strong><h1 class="subtext">Dot is great with moderation and will make your life moderating your server a lot easier.</h1></strong>
+            </div>
+            
+            <div id="mybar" class="fade-in">
+            </div>
+        </body>
+    </head>
+</html>
