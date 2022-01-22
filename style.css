@@ -78,6 +78,17 @@ body {
       font-size: 15px;
       font-family: sans-serif;
   }
+  .subtextl {
+    color: #9e9e9e;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.subtextr {
+  color: #9e9e9e;
+  font-size: 15px;
+  text-align: right;
+  font-family: sans-serif;
+}
 
   .normaltext {
     color: #ffffff;
@@ -86,9 +97,32 @@ body {
     font-family: sans-serif;
     }
 
-    .image {
+    .normaltextr {
+      color: #ffffff;
+      font-size: 45px;
+      text-align: right;
+      left: 20%;
+      font-family: sans-serif;
+      }
+
+      .normaltextl {
+        color: #ffffff;
+        font-size: 45px;
+        left: 20%;
+        font-family: sans-serif;
+        }
+
+    .imageright {
         position:relative;
+        right: 2%;
+        border-radius: 2%;
     }
+
+    .imageleft {
+      position:relative;
+      left: 2%;
+      border-radius: 2%;
+  }
 
   .buttons a {
       float: center;
@@ -118,7 +152,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.808);
   }
   
   .topnav a {
