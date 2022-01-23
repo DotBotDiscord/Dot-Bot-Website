@@ -3,6 +3,8 @@ html {
   }
 
   #mybar{
+    width: 100%;
+    height: 100%;
     position:absolute;
     top: 90%;
     left:0;
@@ -21,6 +23,7 @@ html {
 }
 
 body {
+  height: auto;
   background-image: url("./untitled.png");
   background-attachment: fixed;
 }
@@ -31,8 +34,8 @@ body {
     border: none;
     font-size: 100%;
     color: #FFFFFF;
-    padding: 20px;
-    width: 150px;
+    padding: 20vw;
+    width: 150vw;
     text-align: center;
     transition-duration: 0.4s;
     text-decoration: none;
@@ -40,7 +43,7 @@ body {
     cursor: pointer;
     border-radius: 8px;
   }
-  
+
   .button:hover {
       background-color: #007dc5;
       color: white;
@@ -61,7 +64,7 @@ body {
     cursor: pointer;
     border-radius: 8px;
   }
-  
+
   .buttonf:hover {
       background-color: #575757;
       color: white;
@@ -79,27 +82,29 @@ body {
       font-family: sans-serif;
   }
   .subtextl {
+    font-size: 90%;
     color: #9e9e9e;
     font-size: 15px;
     font-family: sans-serif;
 }
 .subtextr {
   color: #9e9e9e;
-  font-size: 15px;
+  font-size: 90%;
   text-align: right;
   font-family: sans-serif;
 }
 
   .normaltext {
+    font-size: 300%;
     color: #ffffff;
-    font-size: 45px;
+    font-size: 300%;
     left: 20%;
     font-family: sans-serif;
     }
 
     .normaltextr {
       color: #ffffff;
-      font-size: 45px;
+      font-size: 300%;
       text-align: right;
       left: 20%;
       font-family: sans-serif;
@@ -107,18 +112,22 @@ body {
 
       .normaltextl {
         color: #ffffff;
-        font-size: 45px;
+        font-size: 300%;
         left: 20%;
         font-family: sans-serif;
         }
 
     .imageright {
+      width: 30%;
+      height: auto;
         position:relative;
         right: 2%;
         border-radius: 2%;
     }
 
     .imageleft {
+      width: 30%;
+      height: auto;
       position:relative;
       left: 2%;
       border-radius: 2%;
@@ -156,7 +165,7 @@ body {
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0.808);
   }
-  
+
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -165,21 +174,23 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
-  
+
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
   }
 
 #wrapper{
+    width: 100%;
+    height: 220%;
+    font-size: 1.7vh;
     position:absolute;
     right: 0%;
-    width: 100%;
     top: 95%;
     background-color:#2b2e31
 }
@@ -198,7 +209,7 @@ body {
       opacity:1;
     }
   }
-  
+
   @-moz-keyframes fadeIn {
     0% {
       opacity:0;
@@ -207,7 +218,7 @@ body {
       opacity:1;
     }
   }
-  
+
   @-webkit-keyframes fadeIn {
     0% {
       opacity:0;
@@ -216,7 +227,7 @@ body {
       opacity:1;
     }
   }
-  
+
   @-o-keyframes fadeIn {
     0% {
       opacity:0;
@@ -225,7 +236,7 @@ body {
       opacity:1;
     }
   }
-  
+
   @-ms-keyframes fadeIn {
     0% {
       opacity:0;
