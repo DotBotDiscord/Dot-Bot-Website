@@ -25,6 +25,7 @@ html {
 body {
   height: auto;
   background-image: url("./untitled.png");
+  background-size: auto 110%;
   background-attachment: fixed;
 }
 
@@ -42,6 +43,10 @@ body {
     overflow: hidden;
     cursor: pointer;
     border-radius: 8px;
+  }
+
+  .spaces {
+    height: 1.5vh;
   }
 
   .button:hover {
